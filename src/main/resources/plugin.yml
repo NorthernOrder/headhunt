@@ -1,0 +1,14 @@
+name: Headhunt
+version: '${version}'
+main: xyz.nrth.headhunt.Headhunt
+api-version: 1.18
+authors: [ ozokuz ]
+commands:
+  startgame:
+    usage: /startgame
+    description: Start the headhunt
+    permission: headhunt.start
+permissions:
+  headhunt.start:
+    description: Permission to start headhunt
+    default: op
